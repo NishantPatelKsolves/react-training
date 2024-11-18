@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    
+</head>
+<body>
+    <header>
+        <h1 id="heading">This is Heading</h1>
+        <h2 id="title">This is Title</h2>
+        <p class="description">This is description 1</p>
+        <p class="description">This is description 2</p>
+        <p class="description">This is description 3</p>
+        <p class="description">This is description 4</p>
+    </header>
+
+<!-- Event Phases: Capturing and Bubbling 
+The Three Phases of Event Flow
+Capture Phase (Capturing/Trickling):
+
+The event starts from the root (document) and travels down to the target element.
+Think of this as the top-down phase.
+Target Phase:
+
+The event reaches the actual target element.
+This is where the event is dispatched on the element itself.
+Bubble Phase (Bubbling):
+
+The event travels back up from the target element to the root (document).
+Think of this as the bottom-up phase.
+
+How to Listen in Capturing or Bubbling Phase
+By default, event listeners are triggered in the bubbling phase.
+To handle events in the capturing phase, you need to specify the capture option.
+
+element.addEventListener(event, callback, options);
+
+'options' can be:
+'capture': true: Listener is triggered during the capturing phase.
+'capture': false (default): Listener is triggered during the bubbling phase.
+
+-->
+
+    <div id="parent" style="padding: 20px; background: lightblue;">Parent
+        <div id="child" style="padding: 20px; background: lightgreen;">
+        Child
+        </div>
+    </div>
+
+    <div id="apiData"></div>
+
+    <p id="timer"></p>
+  
+
+
+    <script>
+        const p = document.createElement("p");
+        p.textContent = "Paragraph added via JS";
+        document.body.appendChild(p);
+
+        const heading = document.querySelector('#heading');
+        heading.textContent="Welcome Heading"
+
+        const title = document.getElementById("title");
+        console.log("title: ", title);
+
+        const descriptions = document.getElementsByClassName("description");
+        console.log("description: ",descriptions[0]);
+
+        const title2 = document.querySelector("#title");
+        console.log("title again: ", title2);
+
+        const allDescriptions = document.querySelectorAll(".description");
+        console.log("All desc", allDescriptions);
+
+        document.querySelector(".description").innerHTML = "<strong>Updated description</strong>";
+
+
+        //
+        const parent = document.getElementById("parent");
+        const child = document.getElementById("child");
+
+        parent.addEventListener("click",() => {console.log("Parent (Capture)");},true); // Capturing phase
+        
+
+        parent.addEventListener("click",() => {console.log("Parent (Bubble)");},false // Bubbling phase
+        );
+
+        // Target Phase
+        child.addEventListener("click", () => {console.log("Child (Target)");});
+
+        child.addEventListener("click", (event) => {event.stopPropagation(); // Stopping Capturing/Bubbling
+        console.log("Child clicked");});
+
+        //fetch
+        fetch("https://jsonplaceholder.typicode.com/posts/1")
+        .then((response) => {
+        if (!response.ok) throw new Error("Network response was not ok");
+        return response.json();
+        })
+        .then((data) => {
+        console.log("Data received:", data);
+        apiResponse = JSON.stringify(data)
+        const apiDiv = document.getElementById("apiData");
+        apiDiv.textContent = apiResponse;
+        })
+        .catch((error) => {
+        console.error("Fetch error:", error);
+        });
+
+        //setInterval
+        const timerEle = document.getElementById('timer');
+        setInterval(()=>{
+            const time = new Date().toTimeString()
+            // console.log(time)
+            timerEle.textContent=time;
+        },1000)
+
+        //setTimeout
+        setTimeout(()=>alert('Hello'),2000);
+
+
+    </script>
+</body>
+</html>
