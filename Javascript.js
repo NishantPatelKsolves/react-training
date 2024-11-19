@@ -354,5 +354,19 @@ function add(a,b){ // Function Declaration/Statements
   // Day 4:
   // Topic : Different ways to use JavaScript in HTML
   // - https://code-boxx.com/javascript-in-html/
+  // rest of day 4 tasks in 'index.html' file and 'todo list' folder
   
-  
+  //Day 5:
+
+  // Topic : Library vs. Framework: Understand the difference between a library and a framework
+  // - https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/
+
+  // Topic : CDNs and their Usage: How to use CDN links to import JavaScript libraries
+  // - https://www.baeldung.com/cs/cdn
+
+  //Topic : Cross-Origin Resource Sharing (CORS): What it is and why it matters
+  // - https://medium.com/requestly/what-is-cors-and-why-do-you-need-it-9e518c00320f
+
+  // Topic : Introduction to NPM, NVM and NPX and Install them on system
+  // - https://dev.to/bilalniaz15/what-is-npm-npx-nvm-and-yarn-hpl
+
