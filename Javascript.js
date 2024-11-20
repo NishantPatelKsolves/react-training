@@ -370,3 +370,61 @@ function add(a,b){ // Function Declaration/Statements
   // Topic : Introduction to NPM, NVM and NPX and Install them on system
   // - https://dev.to/bilalniaz15/what-is-npm-npx-nvm-and-yarn-hpl
 
+
+
+  // REACT
+
+  // Day 1
+  // Topic : React Overview: Understanding the purpose and popularity of React in modern web development
+  // - https://makersden.io/blog/understanding-react-js:-why-it-matters-in-web-development
+
+  //Topic : Comparing React with Other Libraries and Frameworks: Key differences between React, Vue, Angular, and jQuery
+ // - https://sd.blackball.lv/en/articles/read/19855-a-detailed-2024-comparison-angular-vs-react-vs-vuejs
+ // - https://medium.com/@emiliebetterdevelopers/angular-vs-react-a-comprehensive-comparison-in-web-development-c12ac7571f02
+
+  // Topic : React vs. ReactDOM: Understanding the role of ReactDOM in rendering React components to the DOM
+  // - https://medium.com/@tanish_rajput/react-and-reactdom-the-dynamic-duo-behind-stunning-user-interfaces-3e83ca3d1468
+
+  // Topic : Creating a React Application:
+ // Using create-react-app and vite commands to quickly initialize projects
+ // How to manually create a React application without using commands for a deeper understanding
+ // - https://medium.com/@pxperfectmike/creating-a-react-application-with-vite-or-create-react-app-870d8f85d7cb
+ // - https://gist.githubusercontent.com/gaearon/0275b1e1518599bbeafcde4722e79ed1/raw/db72dcbf3384ee1708c4a07d3be79860db04bff0/example.html
+
+ // Topic : Exploring the React File Structure:
+ // Examining each file that comes with create-react-app and vite, such as manifest.xml, robots.txt
+ // Understanding the importance of directories like public and src
+ // - https://medium.com/@PavanCodeCraft/react-js-folder-structure-a-comprehensive-guide-f07d4d915e2c
+ // - https://web.dev/articles/add-manifest-react
+ // - https://medium.com/@sujeetive/mastering-robots-txt-f0b38ef9844b
+
+ // Topic : Package Management in React:
+ // Differences between package.json and package-lock.json
+ // Key properties in package.json (e.g., scripts, version, dependencies, and author)
+ // Understanding dependencies vs. devDependencies
+ // Understanding the significance of versioning symbols (^ - caret and ~ - tilde) in package.json
+// - https://blog.packagecloud.io/react-package-management-101/
+
+// Topic : Bundlers and their Role:
+// Introduction to bundlers like Webpack, Vite, and Parcel and why they are essential for bundling, code-splitting, and optimization
+// Basics of Babel and its role in compiling modern JavaScript to be browser-compatible
+// - https://medium.com/@krishnakeshri_30423/the-crucial-role-of-bundlers-in-react-development-bca6c67c1681
+// - https://medium.com/@abrahamahn/understanding-the-role-of-babel-46220bcfe772
+
+// Topi : React Core Concepts:
+// Virtual DOM, Shadow DOM, and the Reconciliation process for efficient UI updates
+// Task: Create a simple React application both using commands (create-react-app or vite) and manually to understand the basic structure and setup.
+// - https://medium.com/duomly-blockchain-online-courses/shadow-dom-vs-virtual-dom-what-is-the-difference-f2611da536ab
+// - https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
+// - https://github.com/acdlite/react-fiber-architecture
+
+
+// Day 2:
+
+// Topic : React Elements and Rendering:
+// Exploring the render, createElement, and createRoot methods in React
+// Differences between React.createElement and JSX and the benefits of using JSX
+// Behind the scenes of JSX: Understanding how JSX is compiled to JavaScript
+// - https://react.dev/reference/react-dom/client/createRoot
+// - https://medium.com/@juliaazt/react-js-deep-dive-1-createelement-and-jsx-runtime-63c75882f7b0
+// - https://medium.com/@elyashanafilts/demystifying-jsx-understanding-how-it-works-behind-the-scenes-d89fdb2db640

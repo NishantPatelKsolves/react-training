@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My page</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+    
+      function MyApp() {
+        const [time, setTime] = React.useState(new Date().toLocaleString());
+
+        React.useEffect(()=>{setInterval(()=>setTime(new Date().toLocaleString()),1000)},[])
+
+        return (
+        <div>
+          <h1>Hello React App</h1>
+          <p>{time}</p>
+        </div>
+      )
+        }
+
+      const container = document.getElementById('root');
+      const root = ReactDOM.createRoot(container);
+      root.render(<React.StrictMode>
+        <MyApp />
+        </React.StrictMode>
+      );
+
+    </script>
+  </body>
+</html>
