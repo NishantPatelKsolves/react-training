@@ -428,3 +428,27 @@ function add(a,b){ // Function Declaration/Statements
 // - https://react.dev/reference/react-dom/client/createRoot
 // - https://medium.com/@juliaazt/react-js-deep-dive-1-createelement-and-jsx-runtime-63c75882f7b0
 // - https://medium.com/@elyashanafilts/demystifying-jsx-understanding-how-it-works-behind-the-scenes-d89fdb2db640
+
+// Topic : Class Components in React:
+// Understanding the syntax and structure of Class Components in React
+// Life Cycle Methods in Class Components:
+// Mounting: constructor, componentDidMount
+// Updating: componentDidUpdate
+// Unmounting: componentWillUnmount
+// - https://medium.com/@PavanCodeCraft/mastering-class-components-in-react-a-comprehensive-guide-c939a41affea
+// - https://www.freecodecamp.org/news/react-component-lifecycle-methods/
+
+// - Built apps using class components:
+// 1. 'react-class-component' (fetches data from external API and keepd count of each request)and
+// 2. 'react/timer-class-component' (Timer with start, pause, and reset function)
+
+// Topic : State and Props:
+// Introduction to State and Props and their differences
+// Managing state within class components and passing props to child components
+// - https://medium.com/@navneetskahlon/understanding-state-vs-props-in-react-a-comprehensive-guide-with-code-examples-e1ef236718a7
+
+// Topic : Additional Class Component Features:
+// Pure Components and their role in optimizing component re-renders
+// Using defaultProps and propTypes to define default values and prop validation
+// Error Boundaries: Catching and handling errors in class components to improve stability
+// - https://medium.com/@suyesh.tiwari23/pure-components-in-react-accelerating-performance-in-your-application-63ac0aa73184
