@@ -452,3 +452,81 @@ function add(a,b){ // Function Declaration/Statements
 // Using defaultProps and propTypes to define default values and prop validation
 // Error Boundaries: Catching and handling errors in class components to improve stability
 // - https://medium.com/@suyesh.tiwari23/pure-components-in-react-accelerating-performance-in-your-application-63ac0aa73184
+
+//Day 3
+
+// Topic : Introduction to Functional Components: 
+// Understanding the simplicity and performance benefits of functional components over class components
+// - https://medium.com/@muchaijoseph/react-functional-components-8c6398ff8c15
+// - https://blog.radialcode.com/category/web/class-vs-functional-components-in-react-a-comprehensive-comparison
+
+// Topic : - Class vs. Functional Components:
+// Key differences in syntax, lifecycle handling, and usage
+// When to choose functional components over class components
+// - https://medium.com/scalereal/class-components-vs-functional-components-in-reactjs-8d69595918be
+// - https://medium.com/@PavanCodeCraft/understanding-react-lifecycle-methods-class-components-vs-functional-components-c36905acdb32
+// - https://maxrozen.com/react-components-hooks-functions-vs-classes
+
+// Topic : Introduction to React Hooks:
+// useState: 
+// Handling multiple state variables with useState
+// Updating state in response to user events and changes
+// useEffect:
+// Understanding the purpose of useEffect for handling side effects
+// Dependency Array: Controlling when useEffect runs (e.g., on mount, on state change, on unmount)
+// Cleanup Functions: Using cleanup functions within useEffect to prevent memory leaks, especially with intervals, subscriptions, and event listeners
+// - https://www.freecodecamp.org/news/introduction-to-react-hooks/
+
+// - Built apps using function components:
+// 1. 'react-function-component' (fetches data from external API and keepd count of each request)and
+// 2. 'timer-function-component' (Timer with start, pause, and reset function) : utilizes useState and useEffect
+
+
+// Day 4
+
+//Topic : Overview of React Router Library:
+// - https://ui.dev/react-router-tutorial
+// Topic: Difference between BrowserRouter, HashRouter, and MemoryRouter and its uses
+// - https://medium.com/front-end-weekly/choosing-a-router-in-react-apps-85ae72fe9d78
+
+// Topic : Understanding Route, Switch, and Link:
+// - https://ui.dev/react-router-tutorial
+
+// Topic : Hooks Provided by the Library - useHistory, useLocation, useParams and useRouteMatch
+// - https://medium.com/@vaishnavi_shelke/a-guide-to-react-router-hooks-94770b9948ac
+
+// Topic : Redirects and Navigation
+// - https://www.dhiwise.com/post/enhancing-navigation-with-redirects-in-react-route
+// - https://refine.dev/blog/navigate-react-router-redirect/#lazy-loading-routes
+
+// Topic : Nested Routing
+// - https://ui.dev/react-router-nested-routes
+
+// Topic : Route Protection, 404 Pages and Fallback Routes:
+// - https://www.robinwieruch.de/react-router-private-routes/
+// - https://ui.dev/react-router-handling-404-pages
+
+// Topic : React Router v6 Features like Switch in favor of Routes.
+// - https://www.geeksforgeeks.org/react-router-v5-vs-v6/
+
+
+// Day 5 : 
+// Topic : Explore Lazy Loading: Wrap components in <Suspense> for loading states.
+// Topic : Explore Code Splitting: Use Webpack for automatic chunk generation.
+// - https://web.dev/articles/code-splitting-suspense
+// - https://loadforge.com/guides/leveraging-code-splitting-and-lazy-loading-in-react
+
+
+// Topic : Understand useCallback: Ensure memoized functions update only with dependency changes.
+// Topic : Understand useMemo: Optimize expensive computations in lists or derived data.
+// Topic : Explore React.memo: Prevent re-renders of functional components with unchanged props.
+// - https://blog.logrocket.com/react-usememo-vs-usecallback/
+// - https://dev.to/vignesh_pugaz/difference-between-usecallback-usememo-and-react-memo-18i6
+// - https://stackoverflow.com/questions/56910036/when-to-use-usecallback-usememo-and-useeffect
+
+// Topic : Explore React Profiler: Identify performance bottlenecks and visualize render times.
+// Topic : Understand Throttling and Debouncing: Optimize event handling to reduce excessive calls.
+// Topic : Understand Batching State Updates: Reduce renders by batching state updates in handlers.
+// Topic : Explore Dynamic Imports: Use React.lazy for lazy loading and show loading indicators.
+// Topic : Understand Key Prop in Lists: Use unique keys to help React track list items.
+// Topic : Explore Caching Mechanisms: Use SWR or React Query to minimize network requests.
