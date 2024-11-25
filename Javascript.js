@@ -530,3 +530,22 @@ function add(a,b){ // Function Declaration/Statements
 // Topic : Explore Dynamic Imports: Use React.lazy for lazy loading and show loading indicators.
 // Topic : Understand Key Prop in Lists: Use unique keys to help React track list items.
 // Topic : Explore Caching Mechanisms: Use SWR or React Query to minimize network requests.
+
+// Week 3 :
+// Day 1 :
+// Topic : Overview of the React Context API: Understanding its purpose in managing global state, avoiding prop drilling, and enhancing component communication.
+// Topic : Understanding Context Provider and Context Consumer: Exploring the roles of Provider and Consumer in sharing state across components.
+// Topic : Creating a Context: Learning how to create a context using React.createContext(). Exploring the concepts of Provider and Consumer patterns in detail.
+// - https://medium.com/@joaopaulocmarra/mastering-react-context-api-a-comprehensive-tutorial-for-front-end-developers-ed147491eec6
+
+// Topic : Using Context in Functional Components: Exploring how to use the useContext hook to access context values, enabling simplified state management within components.
+// - https://medium.com/@livajorge7/using-react-context-in-functional-components-a-complete-guide-with-best-practices-and-expert-f699881db23
+/*
+- Updating Context Values: Understanding how to create dynamic context values and update them using state management with useState for responsiveness.
+
+- Using Multiple Context Providers: Learning how to nest multiple context providers for managing different states across various parts of the application effectively.
+
+- Performance Considerations: Understanding best practices to prevent unnecessary re-renders when using context, ensuring optimal performance.
+
+- Task: Refactor the BookStore App to implement the Context API and add a theme toggler for improved user experience."
+*/
