@@ -549,3 +549,35 @@ function add(a,b){ // Function Declaration/Statements
 
 - Task: Refactor the BookStore App to implement the Context API and add a theme toggler for improved user experience."
 */
+
+/**
+ * Day 3:
+ * 
+ * Tiopics: 
+ * - Overview of Redux: Understanding what Redux is, its purpose in state management, and key differences from the Context API, particularly in handling complex state.
+
+   - Core Concepts of Redux: Familiarizing yourself with essential concepts such as:
+   - Actions: Learning how to define actions and their types.
+   - Reducers: Understanding how reducers manage state transitions based on actions.
+   - Store: Exploring how the Redux store holds the application state and manages its updates.
+
+   - Setting Up Redux:
+   - Learning how to set up a Redux store using createStore.
+   - Connecting the Redux store to a React application using react-redux and configuring the Provider.
+
+   - Dispatching Actions:
+   - Exploring how to create action creators and dispatch actions to modify state within the Redux store.
+   - Understanding how to handle asynchronous actions using middleware.
+
+   - Understanding the Redux Flow:
+   - Studying the unidirectional data flow in Redux, where actions trigger reducers to update the store, and the store reflects changes in components.
+
+   - Task:
+   - Create a Recipe Management Application that allows users to add, edit, and delete recipes. Implement Redux to manage the state of recipes, including the ingredients and cooking instructions. Allow users to categorize recipes and filter by category, implementing a dynamic list that updates based on user input.
+
+   Resources:
+   - https://blog.logrocket.com/understanding-redux-tutorial-examples/
+   - https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/
+   - https://www.youtube.com/watch?v=5yEG6GhoJBs
+   - https://www.youtube.com/watch?v=DnRY5yG67u8
+ */
