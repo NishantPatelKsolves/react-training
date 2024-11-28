@@ -551,7 +551,7 @@ function add(a,b){ // Function Declaration/Statements
 */
 
 /**
- * Day 3:
+ * Day 2:
  * 
  * Tiopics: 
  * - Overview of Redux: Understanding what Redux is, its purpose in state management, and key differences from the Context API, particularly in handling complex state.
@@ -581,3 +581,19 @@ function add(a,b){ // Function Declaration/Statements
    - https://www.youtube.com/watch?v=5yEG6GhoJBs
    - https://www.youtube.com/watch?v=DnRY5yG67u8
  */
+
+   /**
+    * Day 4:
+    * Testing in React: Jest 
+    * 
+    * - Explore Testing Libraries: Understand the roles of popular testing libraries like Jest for unit testing and React Testing Library for component testing.
+      - https://medium.com/simform-engineering/react-testing-library-vs-jest-2a204f521b97
+      
+      - Write Unit Tests for Functions: Learn how to write unit tests for utility functions, actions, and reducers using Jest's testing framework.
+      - Test Components with React Testing Library: Explore how to test components by rendering them and asserting their behavior, focusing on queries like getByText, getByRole, and getByTestId.
+      - Simulate User Interactions: Understand how to simulate user events (e.g., clicks, inputs) in tests using user-event library.
+      - Mocking in Tests: Learn how to mock functions, modules, and API calls to isolate tests and improve reliability.
+      - Testing Asynchronous Code: Understand how to test asynchronous actions and components that rely on promises or async functions.
+
+      Task: Write comprehensive tests for the Bookstore and Recipe Management Application, ensuring all functionality (including async actions) is covered."
+    */
