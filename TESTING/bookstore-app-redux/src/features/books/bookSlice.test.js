@@ -1,4 +1,4 @@
-import booksReducer, { fetchBooks, setCategoryFilter, setAuthorFilter } from './booksSlice';
+import booksReducer, { fetchBooks, setCategoryFilter, setAuthorFilter } from './booksSlice.js';
 
 describe('booksSlice', () => {
   const initialState = {
