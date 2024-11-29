@@ -597,3 +597,39 @@ function add(a,b){ // Function Declaration/Statements
 
       Task: Write comprehensive tests for the Bookstore and Recipe Management Application, ensuring all functionality (including async actions) is covered."
     */
+
+      /**
+       * Day 5:
+       * - Introduction to Version Control with Git
+         - Familiarize yourself with basic Git commands: git init, git add, git commit, git push, and git pull.
+
+         - https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/
+         - https://xosh.org/explain-git-in-simple-words/
+         - https://homes.cs.washington.edu/~mernst/advice/version-control.html
+         - https://www.geeksforgeeks.org/branching-strategies-in-git/
+
+         - Understand the difference between Git and GitHub.
+         - Learn about branching strategies (e.g., feature branches, main branch).
+
+         - Setting Up a React Application for Deployment
+         - Prepare your React application for deployment by optimizing it using npm run build.
+         - Understand the structure of the build folder and its contents.
+         -  Explore what to push to GitHub: Is node_modules pushed? Is package-lock.json pushed?
+
+         - Explore Popular Deploying Platforms
+         - GitHub Pages
+         - Netlify
+         - Vercel
+         - Heroku
+
+         - Environment Variables
+         - Understand how to manage environment variables for different deployment environments (development vs. production).
+
+         - Monitoring and Maintenance
+         - Explore tools for monitoring deployed applications, such as Google Analytics and Sentry for error tracking.
+
+        Task
+        Choose one deployment platform (GitHub Pages, Netlify, Vercel, or Heroku) and deploy your Recipe Management Application or Bookstore Application. Ensure you set up continuous deployment from your GitHub repository and configure any necessary environment variables.
+
+"
+       */
